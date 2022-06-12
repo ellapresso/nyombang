@@ -1,0 +1,27 @@
+{
+  "name": "nyombang",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ellapresso/nyombang.git"
+  },
+  "author": "ellapresso@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ellapresso/nyombang/issues"
+  },
+  "homepage": "https://github.com/ellapresso/nyombang#readme",
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "nunjucks": "^3.2.3"
+  }
+}
